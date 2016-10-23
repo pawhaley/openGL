@@ -1,0 +1,18 @@
+﻿  hwk1_Stub_Brownian_Motion.cpp
+c:\users\parker\desktop\hw1\debug\angel.h(65): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\hw1\debug\mat.h(698): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\hw1\debug\mat.h(699): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\hw1\debug\mat.h(700): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\hw1\debug\mat.h(721): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\hw1\debug\mat.h(723): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\hw1\debug\mat.h(726): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\hw1\debug\mat.h(743): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\hw1\debug\hwk1_stub_brownian_motion.cpp(33): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\hw1\debug\hwk1_stub_brownian_motion.cpp(99): warning C4244: 'return': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\hw1\debug\hwk1_stub_brownian_motion.cpp(103): warning C4244: 'return': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\hw1\debug\hwk1_stub_brownian_motion.cpp(446): warning C4244: 'argument': conversion from 'double' to 'const GLfloat', possible loss of data
+c:\users\parker\desktop\hw1\debug\hwk1_stub_brownian_motion.cpp(460): warning C4244: 'argument': conversion from 'double' to 'const GLfloat', possible loss of data
+c:\users\parker\desktop\hw1\debug\hwk1_stub_brownian_motion.cpp(470): warning C4244: 'argument': conversion from 'double' to 'const GLfloat', possible loss of data
+c:\users\parker\desktop\hw1\debug\hwk1_stub_brownian_motion.cpp(779): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  hw1.vcxproj -> C:\Users\parker\Desktop\hw1\Debug\hw1.exe
+  hw1.vcxproj -> C:\Users\parker\Desktop\hw1\Debug\hw1.pdb (Full PDB)

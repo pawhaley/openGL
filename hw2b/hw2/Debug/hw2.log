@@ -1,0 +1,30 @@
+﻿  colorCube.cpp
+c:\users\parker\desktop\hw2\debug\angel.h(65): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\hw2\debug\mat.h(698): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\hw2\debug\mat.h(699): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\hw2\debug\mat.h(700): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\hw2\debug\mat.h(721): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\hw2\debug\mat.h(723): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\hw2\debug\mat.h(726): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\hw2\debug\mat.h(743): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\hw2\debug\colorcube.cpp(35): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\hw2\debug\colorcube.cpp(102): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\hw2\debug\colorcube.cpp(103): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\hw2\debug\colorcube.cpp(111): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\hw2\debug\colorcube.cpp(112): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\hw2\debug\colorcube.cpp(115): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\hw2\debug\colorcube.cpp(298): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\hw2\debug\colorcube.cpp(299): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\hw2\debug\colorcube.cpp(300): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\hw2\debug\colorcube.cpp(317): warning C4244: '*=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\hw2\debug\colorcube.cpp(318): warning C4244: '*=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\hw2\debug\colorcube.cpp(319): warning C4244: '*=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\hw2\debug\colorcube.cpp(343): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\hw2\debug\colorcube.cpp(421): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\hw2\debug\colorcube.cpp(434): warning C4101: 'y': unreferenced local variable
+c:\users\parker\desktop\hw2\debug\colorcube.cpp(434): warning C4101: 'x': unreferenced local variable
+c:\users\parker\desktop\hw2\debug\colorcube.cpp(470): warning C4305: '*=': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\hw2\debug\colorcube.cpp(473): warning C4305: '*=': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\hw2\debug\colorcube.cpp(537): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  hw2.vcxproj -> C:\Users\parker\Desktop\hw2\Debug\hw2.exe
+  hw2.vcxproj -> C:\Users\parker\Desktop\hw2\Debug\hw2.pdb (Full PDB)
