@@ -1,21 +1,7 @@
-//CG Exmaple SL_3.3
-//George Kamberov
-//
-//A simple 3D scene displaying: A color-cube, each of the verices has a specific collor:  
-//Black, Red, Yellow, Green, Blue, Magenta, White, Cyan
-//
-// Interaction: 
-//      The whole scene can be rotated around the x axis by pressing the X/x key 
-//      
-//      Use the up/down direction (arrow)  keys to Move the camera back/forward  
-//      (along the fixed viewing axis). 
-//
-// We use perspective projection.
-//
-// Shaders used: 
-//  vshaderCC_v150.glsl
-//  fshaderCC_v150.glsl
-//
+/*
+Parker Whaley
+This code illustrates three dementional brownian motion
+*/
 #include <ctime>
 #include "Angel.h"
 void m_glewInitAndVersion(void);
@@ -26,16 +12,15 @@ GLuint program;
 typedef Angel::vec4  color4;
 typedef Angel::vec4  point4;
 
-GLuint buffer[5]; //Buffer Object to store the cube vertex attributes
+GLuint buffer[5];
 
-
+//defines how many sides the prisim shuld have
 #define numOfSides 9
-const int NumVertices = 3*(2*numOfSides+ 2*numOfSides); //  (6 faces)(2 triangles/face)(3 vertices/triangle)
-//int NumSegments =3; //number of line segments, can be variable
+const int NumVertices = 3*(2*numOfSides+ 2*numOfSides); //  2 triangles pre face + number of sides triangles for the top
+//disp is the displacement distance for the brownian motion
 GLfloat disp = sqrt(sin(2 * M_PI / numOfSides)*sin(2 * M_PI / numOfSides) + (1 - cos(2 * M_PI / numOfSides))*(1 - cos(2 * M_PI / numOfSides))) / 50.0;
 
 point4 points[NumVertices];
-//color4 colors[NumVertices];
 
 GLfloat theta = 0;
 GLfloat zoom = 1.0;
@@ -46,14 +31,14 @@ GLfloat d=2.5;
 int w; int h;
 
 bool bComplete = false;
+//these describe the face to change color
 bool makeBlack = false;
 int sideToChange = 0;
 
 // Vertices of a unit cube centered at origin, sides aligned with axes
 point4 vertices[numOfSides * 2 + 2];
 
-// RGBA colors
-color4 vertex_colors[numOfSides * 2 + 2];
+
 
 
 
@@ -66,13 +51,13 @@ GLuint model_view_loc;
 //make sure you start with the default coordinate system
 mat4 projmat = Angel::mat4(1.0);
 mat4 modelviewStackTop = Angel::mat4(1.0);
-mat4 modelviewStackBottom = Angel::mat4(1.0);
 
 
 //----------------------------------------------------------------------------
 
 #define PI 3.14159265
 
+//a linked list to hold the locations of the particle
 struct pointNode
 {
 	GLfloat x;
@@ -82,7 +67,7 @@ struct pointNode
 	pointNode *next;
 };
 
-
+//how many nodes are in a linked list
 int pointCount(struct pointNode* head)
 {
 	pointNode* tmp;
@@ -97,6 +82,7 @@ int pointCount(struct pointNode* head)
 	return count_l;
 }
 
+//takes a magnitude and the sides by reference and randomizes the direction while setting the magnitude to the magnitude specified
 void randomDisplacement(GLfloat magnitude, GLfloat &side1, GLfloat &side2, GLfloat &side3)
 {
 	GLfloat angle1 = ((GLfloat)rand() / (GLfloat)RAND_MAX) * (2 * PI);
@@ -106,6 +92,7 @@ void randomDisplacement(GLfloat magnitude, GLfloat &side1, GLfloat &side2, GLflo
 	side3 = magnitude *cos(angle2);
 }
 
+//generates a random start point
 pointNode* getRandomStart() {
 	pointNode* retVal = new pointNode;
 	GLfloat randang = ((GLfloat)rand() / (GLfloat)RAND_MAX) * (2 * PI);
@@ -117,6 +104,7 @@ pointNode* getRandomStart() {
 	return retVal;
 }
 
+//adds a random node to the linked list of nodes
 pointNode* AddNode(pointNode* node)
 {
 	pointNode* newNode = new pointNode;
@@ -134,6 +122,7 @@ pointNode* AddNode(pointNode* node)
 	return newNode;
 }
 
+//checks if the last node has left the prisim
 bool checkNode(struct pointNode * curr) {
 	if (curr->z > .5) {
 		bComplete = true;
@@ -165,7 +154,7 @@ bool checkNode(struct pointNode * curr) {
 
 pointNode* head;
 
-
+//generates a array with the data in the linked list in it
 GLfloat* copyToArray(struct pointNode * head)
 {
 	GLfloat * retVal;
@@ -206,11 +195,10 @@ GLfloat* copyToArray(struct pointNode * head)
 
 
 
-// quad generates two triangles for each face and assigns colors
-//    to the vertices
+
 int Index = 0;
 
-
+// quad generates two triangles for each face
 void
 quad( int a, int b, int c, int d )
 {
@@ -223,6 +211,7 @@ quad( int a, int b, int c, int d )
 	points[Index] = vertices[a]; Index++;
 }
 
+//same as quad but for three vertesis
 void triangle(int a, int b, int c) {
 	points[Index] = vertices[a]; Index++;
 	points[Index] = vertices[b]; Index++;
@@ -230,7 +219,7 @@ void triangle(int a, int b, int c) {
 }
 
 
-
+//makes a cube in a passed buffer
 void makeCubeSetup(GLfloat sideL,GLuint& buff) {
 	vec4 side[6];
 	side[0] = vec4(sideL / 2, sideL / 2, sideL / 2, 1);
@@ -261,7 +250,7 @@ void makeCubeSetup(GLfloat sideL,GLuint& buff) {
 }
 //----------------------------------------------------------------------------
 
-// generate 12 triangles: 36 vertices and 36 colors
+// fenerate the prisim using the eadges set up before
 void prisim() {
 	Index = 0;
 	for (int i = 0; i < numOfSides - 1; i++) {
@@ -284,16 +273,17 @@ void prisim() {
 }
 
 //----------------------------------------------------------------------------
-//GLuint vColor;
+
 GLuint vPosition;
 // OpenGL initialization
 void
 init()
 {
 
-
+	//randomize the start position
 	head = getRandomStart();
 
+	//set up the vertesis we will need
 	for (int i = 0; i < numOfSides * 2; i+=2) {
 		GLfloat angle = 2 * M_PI*(i / 2) / ((GLfloat)numOfSides);
 		vertices[i]= point4(.5*sin(angle), .5*cos(angle), 0.5, 1.0);
@@ -301,7 +291,7 @@ init()
 	}
 	vertices[numOfSides * 2] = point4(0, 0, 0.5, 1.0);
 	vertices[numOfSides * 2+1] = point4(0, 0, -0.5, 1.0);
-    prisim(); 
+    prisim(); //create the shape
 
     // Create and initialize a buffer object
     glGenBuffers( 5, buffer);
@@ -309,9 +299,10 @@ init()
 	
 
 	glBindBuffer( GL_ARRAY_BUFFER, buffer[0]);
+	//store the prisim in buffer 0
     glBufferData( GL_ARRAY_BUFFER, sizeof(points), points, GL_STATIC_DRAW );
 
-
+	//generate a prisim slightly furthur out than the original prisim and put it in buffer 1
 	for (int i = 0; i < numOfSides * 2 + 2; i++) {
 		double epsilon = 1.001;
 		vertices[i].x *= epsilon;
@@ -340,18 +331,19 @@ init()
 	glEnable(GL_BLEND);
 	glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 	glDepthFunc(GL_LEQUAL);
+	//put a cube in buffer 3
 	makeCubeSetup(.01, buffer[3]);
 }
 
 //----------------------------------------------------------------------------
-
+//makes a square
 void dispSquare() {
 	glBindBuffer(GL_ARRAY_BUFFER, buffer[3]);
 	glVertexAttribPointer(vPosition, 4, GL_FLOAT, GL_FALSE, 0, BUFFER_OFFSET(0));
 	glDrawArrays(GL_TRIANGLES, 0, 6 * 6);
 }
 
-
+//draw the sene
 void
 display( void )
 {
@@ -428,7 +420,7 @@ display( void )
 }
 
 bool bPaused = true;
-
+//bassically the same animate function as assignment 1
 void animate(int i)
 {
 	GLfloat x, y;
@@ -461,7 +453,7 @@ void animate(int i)
 
 
 //----------------------------------------------------------------------------
-
+//handel keybord imput
 void
 keyboard( unsigned char key, int x, int y )
 {
@@ -494,7 +486,7 @@ keyboard( unsigned char key, int x, int y )
     }
 }
 
-
+//keep the screen updated
 void idle(void){
 
 //Spin the wire or pause the spinning
@@ -505,11 +497,12 @@ if (theta_y > 360.0) {
 glutPostRedisplay();
 }
 //----------------------------------------------------------------------------
-
+//lets the program tell how far the user moved there mouse with the left button down
 bool clicked = false;
 int ixclick = 0;
 int iyclick = 0;
 
+//records the initial click
 void mouseCall(int button, int state, int ix, int iy) {
 	if (button == GLUT_LEFT_BUTTON && state == GLUT_DOWN) {
 		clicked = true;
@@ -521,6 +514,7 @@ void mouseCall(int button, int state, int ix, int iy) {
 	}
 }
 
+//updates the orientation of the sene
 void mouse(int x, int y) {
 	if (clicked == true) {
 		modelviewStackTop = RotateY((x-ixclick)*step)*modelviewStackTop;
