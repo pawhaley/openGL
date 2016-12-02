@@ -1,0 +1,48 @@
+﻿  InitShader.cpp
+c:\users\parker\desktop\git\opengl\hw4b\debug\angel.h(65): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\hw4b\debug\mat.h(698): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\hw4b\debug\mat.h(699): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\hw4b\debug\mat.h(700): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\hw4b\debug\mat.h(721): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\hw4b\debug\mat.h(723): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\hw4b\debug\mat.h(726): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\hw4b\debug\mat.h(743): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+  colorCube.cpp
+c:\users\parker\desktop\git\opengl\hw4b\debug\angel.h(65): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\hw4b\debug\mat.h(698): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\hw4b\debug\mat.h(699): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\hw4b\debug\mat.h(700): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\hw4b\debug\mat.h(721): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\hw4b\debug\mat.h(723): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\hw4b\debug\mat.h(726): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\hw4b\debug\mat.h(743): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\hw4b\debug\colorcube.cpp(15): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\hw4b\debug\colorcube.cpp(26): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\hw4b\debug\colorcube.cpp(28): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\hw4b\debug\colorcube.cpp(33): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\hw4b\debug\colorcube.cpp(182): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\hw4b\debug\colorcube.cpp(183): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\hw4b\debug\colorcube.cpp(184): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\hw4b\debug\colorcube.cpp(199): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\hw4b\debug\colorcube.cpp(205): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\hw4b\debug\colorcube.cpp(237): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\parker\desktop\git\opengl\hw4b\debug\colorcube.cpp(272): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\hw4b\debug\colorcube.cpp(274): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\hw4b\debug\colorcube.cpp(324): warning C4244: 'argument': conversion from 'double' to 'const GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\hw4b\debug\colorcube.cpp(336): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\hw4b\debug\colorcube.cpp(347): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\hw4b\debug\colorcube.cpp(348): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\hw4b\debug\colorcube.cpp(353): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\hw4b\debug\colorcube.cpp(356): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\hw4b\debug\colorcube.cpp(357): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\hw4b\debug\colorcube.cpp(363): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\hw4b\debug\colorcube.cpp(368): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\hw4b\debug\colorcube.cpp(369): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\hw4b\debug\colorcube.cpp(373): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\hw4b\debug\colorcube.cpp(374): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\hw4b\debug\colorcube.cpp(392): warning C4305: '*=': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\hw4b\debug\colorcube.cpp(395): warning C4305: '*=': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\hw4b\debug\colorcube.cpp(459): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating Code...
+  hw2.vcxproj -> C:\Users\parker\Desktop\git\openGL\hw4b\Debug\hw2.exe
+  hw2.vcxproj -> C:\Users\parker\Desktop\git\openGL\hw4b\Debug\hw2.pdb (Full PDB)
