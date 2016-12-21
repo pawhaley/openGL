@@ -1,0 +1,76 @@
+﻿  InitShader.cpp
+c:\users\parker\desktop\git\opengl\final - copy\debug\angel.h(68): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\final - copy\debug\mat.h(698): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final - copy\debug\mat.h(699): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final - copy\debug\mat.h(700): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final - copy\debug\mat.h(721): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final - copy\debug\mat.h(723): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final - copy\debug\mat.h(726): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final - copy\debug\mat.h(743): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+  colorCube.cpp
+c:\users\parker\desktop\git\opengl\final - copy\debug\angel.h(68): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\final - copy\debug\mat.h(698): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final - copy\debug\mat.h(699): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final - copy\debug\mat.h(700): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final - copy\debug\mat.h(721): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final - copy\debug\mat.h(723): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final - copy\debug\mat.h(726): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final - copy\debug\mat.h(743): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final - copy\debug\colorcube.cpp(62): warning C4244: 'return': conversion from 'GLuint' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final - copy\debug\colorcube.cpp(63): warning C4244: 'return': conversion from 'GLuint' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final - copy\debug\colorcube.cpp(64): warning C4244: 'return': conversion from 'GLuint' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final - copy\debug\colorcube.cpp(131): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\final - copy\debug\colorcube.cpp(153): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\parker\desktop\git\opengl\final - copy\debug\colorcube.cpp(208): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\final - copy\debug\colorcube.cpp(249): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\final - copy\debug\colorcube.cpp(252): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final - copy\debug\colorcube.cpp(259): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final - copy\debug\colorcube.cpp(265): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final - copy\debug\colorcube.cpp(271): warning C4018: '<': signed/unsigned mismatch
+c:\users\parker\desktop\git\opengl\final - copy\debug\colorcube.cpp(281): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\final - copy\debug\colorcube.cpp(282): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\final - copy\debug\colorcube.cpp(309): warning C4244: 'argument': conversion from 'double' to 'const GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final - copy\debug\colorcube.cpp(317): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\final - copy\debug\colorcube.cpp(322): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\final - copy\debug\colorcube.cpp(323): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\final - copy\debug\colorcube.cpp(324): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\final - copy\debug\colorcube.cpp(340): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\parker\desktop\git\opengl\final - copy\debug\colorcube.cpp(373): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\final - copy\debug\colorcube.cpp(375): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\final - copy\debug\colorcube.cpp(387): warning C4244: 'initializing': conversion from 'GLuint' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final - copy\debug\colorcube.cpp(388): warning C4244: 'initializing': conversion from 'GLuint' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final - copy\debug\colorcube.cpp(389): warning C4244: 'initializing': conversion from 'GLuint' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final - copy\debug\colorcube.cpp(390): warning C4244: 'initializing': conversion from 'GLuint' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final - copy\debug\colorcube.cpp(393): warning C4244: 'argument': conversion from 'GLfloat' to 'GLuint', possible loss of data
+c:\users\parker\desktop\git\opengl\final - copy\debug\colorcube.cpp(397): warning C4244: 'argument': conversion from 'GLfloat' to 'GLuint', possible loss of data
+c:\users\parker\desktop\git\opengl\final - copy\debug\colorcube.cpp(403): warning C4244: 'argument': conversion from 'GLfloat' to 'GLuint', possible loss of data
+c:\users\parker\desktop\git\opengl\final - copy\debug\colorcube.cpp(406): warning C4244: 'argument': conversion from 'GLfloat' to 'GLuint', possible loss of data
+c:\users\parker\desktop\git\opengl\final - copy\debug\colorcube.cpp(409): warning C4244: 'argument': conversion from 'GLfloat' to 'GLuint', possible loss of data
+c:\users\parker\desktop\git\opengl\final - copy\debug\colorcube.cpp(412): warning C4244: 'argument': conversion from 'GLfloat' to 'GLuint', possible loss of data
+c:\users\parker\desktop\git\opengl\final - copy\debug\colorcube.cpp(415): warning C4244: 'argument': conversion from 'GLfloat' to 'GLuint', possible loss of data
+c:\users\parker\desktop\git\opengl\final - copy\debug\colorcube.cpp(418): warning C4244: 'argument': conversion from 'GLfloat' to 'GLuint', possible loss of data
+c:\users\parker\desktop\git\opengl\final - copy\debug\colorcube.cpp(440): warning C4244: '=': conversion from 'int' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final - copy\debug\colorcube.cpp(444): warning C4244: 'argument': conversion from 'GLfloat' to 'int', possible loss of data
+c:\users\parker\desktop\git\opengl\final - copy\debug\colorcube.cpp(445): warning C4244: 'argument': conversion from 'GLfloat' to 'int', possible loss of data
+c:\users\parker\desktop\git\opengl\final - copy\debug\colorcube.cpp(447): warning C4244: 'argument': conversion from 'GLfloat' to 'int', possible loss of data
+c:\users\parker\desktop\git\opengl\final - copy\debug\colorcube.cpp(448): warning C4244: 'argument': conversion from 'GLfloat' to 'int', possible loss of data
+c:\users\parker\desktop\git\opengl\final - copy\debug\colorcube.cpp(521): warning C4244: 'argument': conversion from 'GLfloat' to 'GLuint', possible loss of data
+c:\users\parker\desktop\git\opengl\final - copy\debug\colorcube.cpp(523): warning C4244: 'argument': conversion from 'GLfloat' to 'GLuint', possible loss of data
+c:\users\parker\desktop\git\opengl\final - copy\debug\colorcube.cpp(525): warning C4244: 'argument': conversion from 'GLfloat' to 'GLuint', possible loss of data
+c:\users\parker\desktop\git\opengl\final - copy\debug\colorcube.cpp(565): warning C4244: '+=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final - copy\debug\colorcube.cpp(631): warning C4244: '+=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final - copy\debug\colorcube.cpp(641): warning C4244: '+=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final - copy\debug\colorcube.cpp(651): warning C4244: '+=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final - copy\debug\colorcube.cpp(662): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final - copy\debug\colorcube.cpp(710): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final - copy\debug\colorcube.cpp(732): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final - copy\debug\colorcube.cpp(733): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\final - copy\debug\colorcube.cpp(762): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\final - copy\debug\colorcube.cpp(769): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final - copy\debug\colorcube.cpp(771): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final - copy\debug\colorcube.cpp(797): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\final - copy\debug\colorcube.cpp(798): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\final - copy\debug\colorcube.cpp(799): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  Generating Code...
+  hw2.vcxproj -> C:\Users\parker\Desktop\git\openGL\final - Copy\Debug\hw2.exe
+  hw2.vcxproj -> C:\Users\parker\Desktop\git\openGL\final - Copy\Debug\hw2.pdb (Full PDB)

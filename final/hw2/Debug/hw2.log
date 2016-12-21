@@ -1,0 +1,85 @@
+﻿  InitShader.cpp
+c:\users\parker\desktop\git\opengl\final\debug\angel.h(68): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\final\debug\mat.h(698): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final\debug\mat.h(699): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final\debug\mat.h(700): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final\debug\mat.h(721): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final\debug\mat.h(723): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final\debug\mat.h(726): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final\debug\mat.h(743): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+  colorCube.cpp
+c:\users\parker\desktop\git\opengl\final\debug\angel.h(68): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\final\debug\mat.h(698): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final\debug\mat.h(699): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final\debug\mat.h(700): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final\debug\mat.h(721): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final\debug\mat.h(723): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final\debug\mat.h(726): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final\debug\mat.h(743): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(15): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(26): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(28): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(33): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(60): warning C4244: '=': conversion from 'int' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(64): warning C4244: 'argument': conversion from 'GLfloat' to 'int', possible loss of data
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(65): warning C4244: 'argument': conversion from 'GLfloat' to 'int', possible loss of data
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(67): warning C4244: 'argument': conversion from 'GLfloat' to 'int', possible loss of data
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(68): warning C4244: 'argument': conversion from 'GLfloat' to 'int', possible loss of data
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(207): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(209): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(236): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(237): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(238): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(253): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(259): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(264): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(299): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(300): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(307): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(307): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(308): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(308): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(309): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(309): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(311): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(311): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(312): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(312): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(313): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(313): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(347): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(402): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(404): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(499): warning C4244: 'argument': conversion from 'double' to 'const GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(503): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(518): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(519): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(527): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(528): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(545): warning C4244: 'argument': conversion from 'double' to 'const GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(549): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(564): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(565): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(573): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(574): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(590): warning C4244: 'argument': conversion from 'double' to 'const GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(594): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(609): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(610): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(618): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(619): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(636): warning C4244: 'argument': conversion from 'double' to 'const GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(640): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(655): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(656): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(664): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(665): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(681): warning C4305: '*=': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(684): warning C4305: '*=': truncation from 'double' to 'GLfloat'
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(747): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(789): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(857): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\parker\desktop\git\opengl\final\debug\colorcube.cpp(895): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating Code...
+  hw2.vcxproj -> C:\Users\parker\Desktop\git\openGL\final\Debug\hw2.exe
+  hw2.vcxproj -> C:\Users\parker\Desktop\git\openGL\final\Debug\hw2.pdb (Full PDB)
